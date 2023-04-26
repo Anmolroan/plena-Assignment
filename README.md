@@ -11,7 +11,7 @@
 
 ### to see the contract 'http://localhost:3000/api#/' 
 
-
+## This was the problem statement
 
 Make a service which creates different posts and comments for the post. only required technology is express.js you can choose everything else.
 post consists of an image (jpg, png, jpeg types only), title, description and tags. tags are case insensitive and we need to have a tag counter. so for example we should be able to see how many posts are there with specific tags. Comment consists only of text but is associated to specific post. In posts we have a comment counter. Whenever a comment a new comment is created or a comment is removed we release an event through any event streaming technology (you can choose one you are comfortable with) and we increment or decrement the comment counter.
